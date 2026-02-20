@@ -1,33 +1,38 @@
 ---
-title: Projet Final - Task Manager
+title: Portfolio DevOps - ESIEE Paris 2025-2026
 ---
 
-# Projet Final - Task Manager
+**Cours** : DevOps Data  
+**Encadrant** : Badr TAJINI  
+**Groupe** : E4 DSIA
 
-## Description
-Application de gestion de tâches développée en groupe avec une architecture microservices conteneurisée.
+---
 
-## Stack Technique
-- **Frontend** : React + Vite, servi par Nginx
-- **Backend** : Node.js + Express + pg
-- **Base de données** : PostgreSQL 15
-- **Conteneurisation** : Docker + docker-compose
-- **CI/CD** : GitHub Actions
-- **Registry** : Docker Hub
+## 👥 Membres du Groupe
 
-## Architecture
-3 conteneurs orchestrés par docker-compose avec healthchecks et dépendances entre services.
+- Adam NOUARI
+- Sofiane MOUHOUB
+- Yacine OUALIKEN
+- Yanis NOUILI
+- Ryane Sid Idris
+---
 
-## Base de données (ma partie)
-Migration de SQLite vers PostgreSQL avec volume persistant. Script d'initialisation `init.sql` converti en ConfigMap Kubernetes. CRUD complet validé via tests Jest/Supertest dans le pipeline CI.
+## 📁 Projet Final
 
-## CI/CD Pipeline
-- Build et tests automatiques à chaque push
-- Service PostgreSQL intégré dans GitHub Actions
-- Push automatique sur Docker Hub
+[[projet/index| Projet Final — Task Manager]]
 
-## Kubernetes
-Manifestes de déploiement pour les 3 services avec PersistentVolumeClaim pour PostgreSQL.
+---
 
-## Repo GitHub
-[yanis-nouili/devops_base](https://github.com/yanis-nouili/devops_base)
+## 📚 Labs
+
+| Lab | Sujet |
+|-----|-------|
+| [[labs/lab1\|Lab 1]] | Introduction au déploiement |
+| [[labs/lab2\|Lab 2]] | Infrastructure as Code (IaC) |
+| [[labs/lab3\|Lab 3]] | Déploiement d'Applications |
+| [[labs/lab4\|Lab 4]] | Version Control, Build Systems et Tests |
+| [[labs/lab5\|Lab 5]] | CI/CD avec Kubernetes |
+
+---
+
+> *Site généré avec [Quartz](https://quartz.jzhao.xyz/) — ESIEE Paris 2025-2026*

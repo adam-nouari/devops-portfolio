@@ -1,9 +1,7 @@
 ---
-title: Lab 1 - Découverte AWS
+title: Lab 1 - Introduction au déploiement
 ---
 
-# Lab 1 - Découverte AWS
+Le rapport réalisé pour le Lab 1 de DevOps.
 
-Les fichiers réalisés pour le Lab 1 de DevOps.
-
-- [Télécharger le PDF](lab1-rapport.pdf)
+- [Télécharger le PDF](https://drive.google.com/file/d/1SnAXxpcqL0A7a2Gh_wpEsIv66HwaLxgB/view?usp=drive_link)
